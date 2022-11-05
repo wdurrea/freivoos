@@ -35,7 +35,7 @@ main{
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    /* background-color: rgba(0, 128, 255, 0.5); */
 
 }
 
@@ -85,7 +85,7 @@ main{
     align-items: center;
     width: 100%;
     max-width: 380px;
-    position: relative;
+    position: center;
     top: -185px;
     left: 10px;
 
@@ -96,7 +96,12 @@ main{
 .contenedor__login-register form{
     width: 100%;
     padding: 80px 20px;
-    background: white;
+    background-image: url(../images/bg5.png);
+    /* background: white; */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     position: absolute;
     border-radius: 20px;
 }

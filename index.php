@@ -22,17 +22,12 @@
 
         <main>
 
-            <div class="contenedor__todo">
+             <div class="contenedor__todo">
                 <div class="caja__trasera">
                     <div class="caja__trasera-login">
-                        <h3>¿Ya tienes una cuenta?</h3>
-                        <p>Inicia sesión para entrar en la página</p>
-                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
-                    </div>
-                    <div class="caja__trasera-register">
-                        <h3>¿Aún no tienes una cuenta?</h3>
-                        <p>Regístrate para que puedas iniciar sesión</p>
-                        <button id="btn__registrarse">Regístrarse</button>
+                    
+                        <!-- <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button> -->
                     </div>
                 </div>
 
@@ -41,19 +36,9 @@
                     <!--Login-->
                     <form action="php/login.php" method="POST" class="formulario__login">
                         <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Usuario" name="usuario">
-                        <input type="password" placeholder="Contraseña" name="contrasena">
+                        <input type="text" placeholder="Usuario" name="usuario" required>
+                        <input type="password" placeholder="Contraseña" name="contrasena" required>
                         <button>Entrar</button>
-                    </form>
-
-                    <!--Register-->
-                    <form action="" class="formulario__register">
-                        <h2>Regístrarse</h2>
-                        <input type="text" placeholder="Nombre completo">
-                        <input type="text" placeholder="Correo Electronico">
-                        <input type="text" placeholder="Usuario">
-                        <input type="password" placeholder="Contraseña">
-                        <button>Regístrarse</button>
                     </form>
                 </div>
             </div>
