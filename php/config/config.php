@@ -4,7 +4,7 @@
 
 $servidor = "freivoosdb.cdrmiw6khp29.us-east-1.rds.amazonaws.com";
 $usuario = "admin";
-$pass = "Saturno2309#";
+$pass = "";
 $bbdd = "freivoosdb";
 $port = "3306"
 ?>
