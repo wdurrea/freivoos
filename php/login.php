@@ -18,7 +18,7 @@ $validar_login = mysqli_query($con, "SELECT * FROM t_users WHERE usuario='$usuar
 
 if(mysqli_num_rows($validar_login) > 0){
     $_SESSION["usuario"] = $usuario;
-    header("location: prueba.php");
+    header("location: home.php");
     exit;
 }else{
     echo '
