@@ -1,6 +1,6 @@
 <?php
 
-function conectar(){;
+function conectar(){
 
     require_once('config/config.php');
     //Recuerde ingresar contraseña en el archivo /config/config.php
